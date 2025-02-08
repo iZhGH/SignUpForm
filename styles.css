@@ -1,11 +1,23 @@
 * {
  margin: 0;
  padding: 0;  
- overflow: hidden;
 }
 
 img {
+    display: block;
+    height: 100%;
+    width: 500px;
+    object-fit: cover;
+}
+
+.leftPageContainer {
     height: 100vh;
     width: 500px;
-    object-fit:cover;
+}
+.photoCredits {
+    color: white;
+    position: relative;
+    bottom: 50px;
+    text-align: center;
+
 }
