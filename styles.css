@@ -3,6 +3,10 @@
  padding: 0;  
 }
 
+body {
+    display: flex;
+}
+
 .backgroundImage {
     display: block;
     height: 100%;
