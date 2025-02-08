@@ -10,14 +10,20 @@ img {
     object-fit: cover;
 }
 
+a {
+    color: lightgray;
+}
+
 .leftPageContainer {
     height: 100vh;
     width: 500px;
 }
 .photoCredits {
-    color: white;
+    color: lightgray;
     position: relative;
     bottom: 50px;
     text-align: center;
+    font-family:  monospace;
+    font-weight: 900;
 
 }
