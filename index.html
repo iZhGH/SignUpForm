@@ -20,14 +20,48 @@
 
 <div class="rightPageContainer">
     <p class="welcomeText">Sign up today to get access to exclusive features, personalized recommendations, and stay updated with the latest news. It only takes a few seconds to join, and you'll be ready to explore all we have to offer.</p>
-    <p class="actionText">You know you want to!</p>
+    <p class="welcomeText2">You know you want to!</p>
 
     <div class="formContainer">
-        <p>Let's do this!</p>
+        <p class="actionText">Let's do this!</p>
         <form action="/" method="get">
-            <label for="firstName">First Name:</label>
-            <input type="text" id="firstName" name="firstName"
+            
+           <div class="inputRow">
+                <div class="inputGroup">
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" name="firstName">
+        </div>
 
+            <div class="inputGroup">
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" name="lastName">
+        </div>
+    </div>
+
+
+            <div class="inputRow">
+                <div class="inputGroup">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">  
+        </div>
+
+            <div class="inputGroup">
+            <label for="number">Phone Number</label>
+            <input type="tel" id="number" name="number">   
+         </div>
+        </div>
+
+            <div class="inputRow">
+                <div class="inputGroup"> 
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password">  
+            </div>
+            
+                <div class="inputGroup">
+                <label for="confirmedPassword">Confirm Password</label>
+                <input type="password" id="confirmedPassword" name="confirmedPassword">   
+                </div>
+            </div>
         </form>
 
 

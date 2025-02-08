@@ -7,6 +7,8 @@ body {
     display: flex;
 }
 
+
+
 .backgroundImage {
     display: block;
     height: 100%;
@@ -62,3 +64,36 @@ a {
     font-weight: 900;
 
 }
+
+.rightPageContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.formContainer {
+    background-color: lightgray;
+    width: 100%;
+    padding: 30px;
+
+}
+
+.actionText {
+    margin-bottom: 15px;
+
+}
+
+form {
+    gap: 50px
+}
+
+.inputRow {
+    display: flex;
+    gap: 15px;
+}
+
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+}
+
+
