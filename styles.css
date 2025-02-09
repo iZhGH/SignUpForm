@@ -150,6 +150,8 @@ input:focus {
 }
 
 .signUpButton {
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: lightgray;
     outline: none;
     border: none;
@@ -158,4 +160,16 @@ input:focus {
     margin-left: 30px;
     height: 35px;
     width: 150px;
+    font-weight: 400  ;
+    font-size: 20px;
+}
+
+.loginText {
+    padding-top: 25px;
+    padding-left: 30px;
+}
+
+.loginHighlight {
+    font-weight: 500;
+    color: lightseagreen;
 }
